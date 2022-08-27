@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sg": "vue-styleguidist server"
+    "sg": "vue-styleguidist server --config styleguide.config.cjs"
   },
   "peerDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
