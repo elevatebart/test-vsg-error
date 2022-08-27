@@ -5,6 +5,9 @@ const {defineConfig} = require('vue-styleguidist');
 module.exports = defineConfig({
   serverPort: process.env.SERVER_PORT,
   components: 'src/elements/**/*.vue',
+  require: [
+    path.join(__dirname, 'src/assets/fonts/fonts.scss'),
+  ],
   theme: {
     fontFamily: {
       base: '"LL Circular", sans-serif',
