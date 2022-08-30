@@ -11533,7 +11533,7 @@ react-simple-code-editor@^0.11.2:
   resolved "https://registry.yarnpkg.com/react-simple-code-editor/-/react-simple-code-editor-0.11.3.tgz#6e5af1c2e51588aded2c89b86e98fac144212f61"
   integrity sha512-7bVI4Yd1aNCeuldErXUt8ksaAG5Fi+GZ6vp3mtFBnckKdzsQtrgkDvdwMFXIhwTGG+mUYmk5ZpMo0axSW9JBzA==
 
-react-styleguidist@^11.1.6:
+react-styleguidist@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-11.2.0.tgz#361db6db6bb7aefa5867f85c83383d386ed27cea"
   integrity sha512-iiq4fRgsZGQLdRWx76R3G9CmEsQkitWRCJKdL5Sh6RktFLYvfvrmBfX7bE7KazF2YrJtsxGlmhsE4WpChXECNA==
@@ -13994,36 +13994,36 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-inbrowser-compiler-demi@^4.50.0:
-  version "4.50.0"
-  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-demi/-/vue-inbrowser-compiler-demi-4.50.0.tgz#f6ebc3589905fdde7032e880c5ab8bbb66ce60a2"
-  integrity sha512-m0/QD4KRRxAN29c/h+JatwWcrpLxCASImFip0FdoRYcDFxpcs+WeU01xR/FSOhKC6Ksm8H7Gf7c4gkdy/6dmRw==
+vue-inbrowser-compiler-demi@^4.53.1:
+  version "4.54.0"
+  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-demi/-/vue-inbrowser-compiler-demi-4.54.0.tgz#aece6b2779cdd3930827bbc040c5c0178d839996"
+  integrity sha512-EitrUV0QlquOV9EofibHRDntO10TXeS2v3aVsFFTsfLCjR8xv9KE4E/u7L39BNWUK5RsctcKCVrQqUvs/mS8XQ==
 
 vue-inbrowser-compiler-independent-utils@^4.52.0:
   version "4.52.0"
   resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.52.0.tgz#c40aefe12eef48d22157fd22cd2bf9b9f9ee9e9c"
   integrity sha512-r09DtBbHbCO/5Ns0UofB/orwX7pYaAJW12+c/cy4brTF06oeng6QbxX0XziiepMyf9E9q/lLa4gk8hlhmG4Zww==
 
-vue-inbrowser-compiler-utils@^4.50.0:
-  version "4.52.0"
-  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-utils/-/vue-inbrowser-compiler-utils-4.52.0.tgz#43fe427b7c0be77fe1557bac6fd62e4dc00caa67"
-  integrity sha512-SSBVCkpvqVfB6taWH7pykMgmP36afoeqaw+MkZgiNaCgbeu+ysn8nhe+1Y7NkjiHWdIoeFWzBbupMsd3ZuEU/g==
+vue-inbrowser-compiler-utils@^4.53.1:
+  version "4.53.1"
+  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-utils/-/vue-inbrowser-compiler-utils-4.53.1.tgz#acea38141b92035b06ef37f4eab84c5ea9ac25a3"
+  integrity sha512-ZXnTFIcj/kcikn+4gIUaDhB3Rk0gyYBNKM/UkndiB+498sCTCTx6Q+k6Ial9JDw4NWBZCuSYf6MGkyDhDFcTgA==
   dependencies:
     camelcase "^5.3.1"
-    vue-inbrowser-compiler-demi "^4.50.0"
+    vue-inbrowser-compiler-demi "^4.53.1"
     vue-inbrowser-compiler-independent-utils "^4.52.0"
 
-vue-inbrowser-compiler@^4.50.0:
-  version "4.50.0"
-  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler/-/vue-inbrowser-compiler-4.50.0.tgz#533297906ad81d2f675851f9f6d8e7e8ada07e38"
-  integrity sha512-5FQyU3xaIiLvS0K2NfkAkb1QwT7REB5BFrJO7eZKZrCY0nkkXR8UvmU/D9l1ByO79fexl6z94dRTiIrQ/dbumA==
+vue-inbrowser-compiler@^4.53.1:
+  version "4.53.1"
+  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler/-/vue-inbrowser-compiler-4.53.1.tgz#d69216880bd072bce0a4253ddcc9f59caaf605f1"
+  integrity sha512-YV1ris4XWyBAV+KnvnVJ8A5GwIFXmDK7+VE7u4H2fespdwwcLf4wwnDPollYQHDS/+1Rj0o2oEYqsSHa89bLig==
   dependencies:
     acorn "^6.4.2"
     acorn-jsx "^5.3.1"
     buble "^0.20.0"
     camelcase "^5.3.1"
     detect-browser "^5.2.0"
-    vue-inbrowser-compiler-utils "^4.50.0"
+    vue-inbrowser-compiler-utils "^4.53.1"
     walkes "^0.2.1"
 
 vue-jest@^4.0.0-rc.0:
@@ -14076,10 +14076,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-styleguidist@^4.48.0:
-  version "4.50.0"
-  resolved "https://registry.yarnpkg.com/vue-styleguidist/-/vue-styleguidist-4.50.0.tgz#8b45babb18cd53800b2a372b0093ba18c005f2de"
-  integrity sha512-4hBsyECItaBqsJ/SVoUy9MeDeSzKSyi+C6amg936ZnFCzETJNqOV0PJXVOOGTDDk0b1rTqsrEczSPvNox/7P5g==
+vue-styleguidist@^4.53.1:
+  version "4.53.1"
+  resolved "https://registry.yarnpkg.com/vue-styleguidist/-/vue-styleguidist-4.53.1.tgz#9d03329f1463694117c3dd75c830e3161e25b2ff"
+  integrity sha512-g096OM/+U2vyR4JJfHBlbNFanRTuMgPRU0yt4JWahd2NOX3Mq1Y1cAzgR7/0bE7eJheJ7zJduG60eCkyhN2MOw==
   dependencies:
     "@vxna/mini-html-webpack-template" "^1.0.0"
     ast-types "0.14.2"
@@ -14125,7 +14125,7 @@ vue-styleguidist@^4.48.0:
     react-icons "^3.11.0"
     react-lifecycles-compat "^3.0.4"
     react-simple-code-editor "^0.11.2"
-    react-styleguidist "^11.1.6"
+    react-styleguidist "^11.2.0"
     rewrite-imports "^2.0.3"
     source-map "0.7.4"
     style-loader "^1.3.0"
@@ -14133,8 +14133,8 @@ vue-styleguidist@^4.48.0:
     to-ast "^1.0.0"
     typescript "4.7.4"
     vue-docgen-api "^4.50.0"
-    vue-inbrowser-compiler "^4.50.0"
-    vue-inbrowser-compiler-utils "^4.50.0"
+    vue-inbrowser-compiler "^4.53.1"
+    vue-inbrowser-compiler-utils "^4.53.1"
     webpack-dev-server "^3.11.2"
     webpack-filter-warnings-plugin "^1.2.1"
     webpack-merge "^4.2.2"

@@ -92,7 +92,7 @@
     "vue-lodash": "^2.0.0",
     "vue-meta": "^1.5.0",
     "vue-router": "^3.0.1",
-    "vue-styleguidist": "^4.48.0",
+    "vue-styleguidist": "^4.53.1",
     "vue-template-compiler": "2.7.10",
     "vuex": "^3.0.1",
     "webfontloader": "^1.6.28",
