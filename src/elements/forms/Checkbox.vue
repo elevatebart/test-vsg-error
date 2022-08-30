@@ -26,7 +26,17 @@ export default {
 # document checkbox
 
 ```jsx
-<Checkbox />
+<div class="test bg-red">
+  <Checkbox /> test
+</div>
 ```
 
 </docs>
+
+<style>
+@import './Checkbox.scss';
+
+.test{
+  color:darkred;
+}
+</style>
